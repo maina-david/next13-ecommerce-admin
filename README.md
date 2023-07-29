@@ -1,6 +1,6 @@
-### Prerequisites
+# Prerequisites
 
-**Node version 14.x**
+## **Node version 14.x**
 
 ### Install packages
 
@@ -9,7 +9,6 @@ npm i
 ```
 
 ### Setup .env file
-
 
 ```js
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -34,11 +33,11 @@ STRIPE_WEBHOOK_SECRET=
 ```
 
 ### Connect to PlanetScale and Push Prisma
+
 ```shell
 npx prisma generate
 npx prisma db push
 ```
-
 
 ### Start the app
 
